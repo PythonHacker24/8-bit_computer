@@ -9,4 +9,4 @@ Software used: Logisim-Evolution
 
 ## An Image while the development stage. (It might not look like what it is now as it is being updated)
 
-![Alt text](https://raw.githubusercontent.com/PythonHacker24/8-bit_computer/main/images/development_image.png)
+![Alt text](https://github.com/PythonHacker24/8-bit_computer/blob/main/images/updated_development_image.jpeg?raw=true)
