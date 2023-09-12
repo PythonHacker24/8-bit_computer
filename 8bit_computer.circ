@@ -225,15 +225,15 @@
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
     </comp>
-    <comp lib="0" loc="(15240,1200)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="facing" val="west"/>
-    </comp>
     <comp lib="0" loc="(15420,1080)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
     </comp>
     <comp lib="0" loc="(15420,1140)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(15420,1200)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
     </comp>
@@ -2692,6 +2692,24 @@
     <comp lib="8" loc="(1525,14070)" name="Text">
       <a name="text" val="Carry OUT"/>
     </comp>
+    <comp lib="8" loc="(15281,1191)" name="Text">
+      <a name="text" val="0 -&gt; A Buffer | 1 -&gt; B Buffer"/>
+    </comp>
+    <comp lib="8" loc="(15319,1261)" name="Text">
+      <a name="text" val="A0, A1, A2, A3, A4, A5, A6, A7"/>
+    </comp>
+    <comp lib="8" loc="(15378,1370)" name="Text">
+      <a name="text" val="Carry"/>
+    </comp>
+    <comp lib="8" loc="(15385,1073)" name="Text">
+      <a name="text" val="Enable"/>
+    </comp>
+    <comp lib="8" loc="(15386,1131)" name="Text">
+      <a name="text" val="RESET"/>
+    </comp>
+    <comp lib="8" loc="(15400,918)" name="Text">
+      <a name="text" val="1 2 3"/>
+    </comp>
     <comp lib="8" loc="(1635,14445)" name="Text">
       <a name="text" val="A"/>
     </comp>
@@ -5140,6 +5158,8 @@
     <wire from="(14750,1330)" to="(15440,1330)"/>
     <wire from="(14760,1340)" to="(14760,10170)"/>
     <wire from="(14760,1340)" to="(15440,1340)"/>
+    <wire from="(14770,1350)" to="(14770,10180)"/>
+    <wire from="(14770,1350)" to="(15440,1350)"/>
     <wire from="(1480,14260)" to="(1480,14290)"/>
     <wire from="(14950,330)" to="(14950,480)"/>
     <wire from="(14950,330)" to="(15090,330)"/>
@@ -5174,7 +5194,7 @@
     <wire from="(1510,14170)" to="(1510,14190)"/>
     <wire from="(15110,1100)" to="(15110,1110)"/>
     <wire from="(15110,1160)" to="(15110,1200)"/>
-    <wire from="(15110,1200)" to="(15240,1200)"/>
+    <wire from="(15110,1200)" to="(15420,1200)"/>
     <wire from="(15110,300)" to="(15110,320)"/>
     <wire from="(15110,450)" to="(15110,470)"/>
     <wire from="(15110,600)" to="(15110,620)"/>
@@ -7079,7 +7099,8 @@
     <wire from="(7230,970)" to="(7230,1590)"/>
     <wire from="(7230,970)" to="(8540,970)"/>
     <wire from="(730,13450)" to="(730,13480)"/>
-    <wire from="(7300,6650)" to="(7300,9920)"/>
+    <wire from="(7300,10180)" to="(14770,10180)"/>
+    <wire from="(7300,6650)" to="(7300,10180)"/>
     <wire from="(7300,80)" to="(7300,6650)"/>
     <wire from="(7370,120)" to="(7370,1360)"/>
     <wire from="(7370,120)" to="(7600,120)"/>
