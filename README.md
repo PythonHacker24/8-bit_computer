@@ -7,6 +7,3 @@ This is a circuit prototye for the development of a custion architecture 8-bit M
 
 Software used: Logisim-Evolution
 
-## An Image while the development stage. (It might not look like what it is now as it is being updated)
-
-![Alt text](https://github.com/PythonHacker24/8-bit_computer/blob/main/images/updated_development_image.jpeg?raw=true)
